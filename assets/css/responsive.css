@@ -1,0 +1,102 @@
+/* pc */
+
+@media (min-width: 64em) {}
+
+/* tablet & mobile */
+@media (max-width: 63.9375em) {
+    #nav .subnav a {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+    }
+
+    #contact-section .form-control {
+        padding: 1rem;
+    }
+
+    #contact-section .contact-content p {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+
+    #footer .socials-list a {
+        padding: 0.4rem;
+    }
+
+    #footer p.copyright {
+        margin-top: 1rem;
+        letter-spacing: 0.1rem;
+    }
+
+    #footer .copyright a {
+        padding: 1rem 0;
+    }
+
+
+}
+
+/* tablet */
+
+@media (min-width: 48em) and (max-width: 63.9375em) {}
+
+/* mobile */
+
+@media (max-width: 47.9375em) {
+
+    .s-col-full,
+    .s-full-width {
+        width: 100% !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav>li {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #header .menu-mobile-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #000;
+        color: #fff;
+        display: revert;
+        float: right;
+        padding: 10px 24px;
+        height: 46px;
+    }
+
+    #header .menu-mobile-btn:hover {
+        color: #000 !important;
+        background-color: #ccc !important;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #ccc;
+    }
+
+    #nav .subnav a {
+        padding: .5rem 2rem;
+    }
+
+    #nav .subnav li:hover a {
+        color: #fff;
+        background-color: #333;
+    }
+
+    #contact-section .contact-info {
+        margin-bottom: 2rem;
+    }
+
+}
